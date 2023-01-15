@@ -1,5 +1,9 @@
 import { useState, useEffect } from "react";
+<<<<<<< HEAD
 
+=======
+import './counter.css';
+>>>>>>> c0f7333 (adds reset button, changes hook to useState)
 
 function Countdown(){
     const [counter, setCounter] = useState(10);
@@ -15,7 +19,11 @@ function Countdown(){
     return (
         <div className="counter-container">
             <div>
+<<<<<<< HEAD
                 <h3>{ counter }</h3>
+=======
+                <h2>{ counter }</h2>
+>>>>>>> c0f7333 (adds reset button, changes hook to useState)
                 <p>{counter} clicks to go!</p>
             </div>
             <div>
